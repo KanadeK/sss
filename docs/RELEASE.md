@@ -14,7 +14,8 @@ A release is allowed only when all of the following are true:
 - the commit author is `KanadeK` with the GitHub noreply address;
 - there is no Codex/OpenAI/ChatGPT/AI-assistant co-author trailer;
 - `v0.1.0` points to the tested `main` commit;
-- GitHub Actions CI and Pages deployment are green.
+- GitHub Actions CI and Release workflows are green.
+- The production demo URL responds successfully.
 
 Run:
 
@@ -40,10 +41,10 @@ Do not skip, weaken, or mark a failed gate as “expected.”
 8. Recreate release assets; never reuse assets from a failed commit.
 9. Push `main`; the idempotent release workflow creates the version tag and
    GitHub Release after rerunning the full gate.
-10. Verify SHA, tag target, author identity, CI, Pages, and release URLs.
+10. Verify SHA, tag target, author identity, CI, live demo, and release URLs.
 
 If the failure depends on unavailable external authority—GitHub authentication,
-repository permission, or Pages settings—stop the publication step and report the exact
+repository permission, or hosting settings—stop the publication step and report the exact
 blocker. Never claim publication succeeded from local files alone.
 
 ## Publication commands

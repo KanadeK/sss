@@ -6,7 +6,7 @@
   <a href="https://github.com/KanadeK/sss/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/KanadeK/sss/actions/workflows/ci.yml/badge.svg"></a>
   <a href="https://github.com/KanadeK/sss/releases"><img alt="Release" src="https://img.shields.io/github/v/release/KanadeK/sss"></a>
   <a href="LICENSE"><img alt="MIT license" src="https://img.shields.io/badge/license-MIT-214f41"></a>
-  <a href="https://kanadek.github.io/sss/"><img alt="Live demo" src="https://img.shields.io/badge/demo-GitHub%20Pages-f4b72d"></a>
+  <a href="https://sillcast-indoor-sun.kanadesama0602.chatgpt.site"><img alt="Live demo" src="https://img.shields.io/badge/demo-live-f4b72d"></a>
 </p>
 
 # SillCast
@@ -19,7 +19,7 @@ It is useful for placing houseplants, avoiding monitor glare, finding a pet's wi
 spot, and planning natural-light photography. The browser app and CLI use the same tested
 geometry engine.
 
-**[Open the live planner](https://kanadek.github.io/sss/)**
+**[Open the live planner](https://sillcast-indoor-sun.kanadesama0602.chatgpt.site)**
 
 ## Why this exists
 
@@ -144,7 +144,7 @@ src/cli.ts         Headless CLI using the same engine
 tests/             Unit, integration, UI, and validation tests
 examples/          Real runnable scenario fixtures
 docs/              Research, model, validation, privacy, release, and roadmap
-.github/workflows  CI, Pages deployment, and idempotent release automation
+.github/workflows  CI and idempotent release automation
 scripts/           Runtime smoke test and deterministic release packaging
 ```
 

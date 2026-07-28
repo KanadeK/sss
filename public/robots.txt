@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://kanadek.github.io/sss/sitemap.xml
+Sitemap: https://sillcast-indoor-sun.kanadesama0602.chatgpt.site/sitemap.xml
