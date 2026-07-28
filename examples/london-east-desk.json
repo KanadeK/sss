@@ -1,0 +1,21 @@
+{
+  "name": "London east-window desk",
+  "site": {
+    "latitude": 51.5072,
+    "longitude": -0.1276,
+    "timeZone": "Europe/London"
+  },
+  "window": {
+    "azimuthDeg": 90,
+    "widthM": 2.1,
+    "heightM": 1.35,
+    "sillHeightM": 0.9
+  },
+  "target": {
+    "lateralM": -0.25,
+    "depthM": 1.8,
+    "heightM": 0.78
+  },
+  "date": "2026-04-18",
+  "stepMinutes": 5
+}

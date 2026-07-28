@@ -1,0 +1,6 @@
+coverage
+dist-package
+dist-web
+node_modules
+release
+package-lock.json

@@ -1,0 +1,32 @@
+name: Feature request
+description: Propose a bounded improvement with a clear user case.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What real decision cannot be made with the current model?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: model
+    attributes:
+      label: Model and validation impact
+      description: Describe new assumptions, inputs, equations, and a possible test fixture.
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Boundaries
+      options:
+        - label: This does not silently turn geometric direct sun into a weather or DLI claim.
+          required: true
